@@ -1,1 +1,13 @@
 This is a new  work
+So lets start working o it. 
+
+```{r}
+library(dslabs)
+library(tidyverse)
+library(dplyr)
+data("heights")
+maleH <- heights %>% filter(sex == "Male") %>% select(height)
+head(maleH)
+
+```
+

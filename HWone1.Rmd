@@ -1,0 +1,21 @@
+
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(dslabs)
+data("mtcars")
+head(mtcars)
+data("heights")
+head(heights)
+
+
+maleH <- heights %>% filter(sex == "Male") %>% select(height)
+head(maleH)
+
+femaleH <- heights %>% filter(sex == "Femae") %>% select(height)
+
+
+
+```
+

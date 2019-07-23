@@ -18,4 +18,10 @@ femaleH <- heights %>% filter(sex == "Femae") %>% select(height)
 
 
 ```
+So hours of work has been done to take care of this stuff but unfortunately, I am still not able to synch my work with repo. 
+```{r}
+hist(maleH)
+boxplot(maleH)
+
+```
 

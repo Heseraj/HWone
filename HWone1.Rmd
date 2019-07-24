@@ -25,3 +25,14 @@ boxplot(maleH)
 
 ```
 
+So, It has been two days that I've not come here. Lets try to solve it. 
+
+```{r}
+data("crimtab")
+head(crimtab)
+tail(crimtab)
+
+```
+
+
+

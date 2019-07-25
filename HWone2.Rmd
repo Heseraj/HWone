@@ -11,3 +11,16 @@ head(maleH)
 
 ```
 
+This is to practice whether I've made the right move. 
+
+```{r}
+data("AirPassengers")
+View(AirPassengers)
+nrow(AirPassengers)
+mean(AirPassengers)
+sd(AirPassengers)
+
+
+```
+
+
